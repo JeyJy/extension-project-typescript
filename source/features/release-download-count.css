@@ -1,0 +1,10 @@
+/* Simulates fixed columns */
+.rgh-release-download-count > span {
+	flex-basis: 0 !important;
+	min-width: 6em;
+}
+
+/* Makes space for right aligning download count */
+.rgh-release-download-count [data-rgh-heat] {
+	min-width: 5em;
+}

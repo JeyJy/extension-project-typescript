@@ -1,0 +1,4 @@
+/* Always show the overflow menu button */
+.rgh-has-more-dropdown .UnderlineNav-actions {
+	visibility: visible !important;
+}

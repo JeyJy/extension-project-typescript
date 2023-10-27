@@ -1,0 +1,20 @@
+[rgh-hide-diff-signs]
+	:is(
+		.diff-text-cell
+		.diff-text, /* Edit page, probably upcoming DOM everywhere */
+		.blob-code-inner,/* Inline review blocks in PRs */
+		.blob-code-marker-cell/* Commit page */
+	)::before {
+	visibility: hidden;
+}
+
+/*
+
+Test URLs
+
+Any commits on https://github.com/sindresorhus/refined-github/commits/main
+Any reviewed block on https://github.com/sindresorhus/refined-github/pull/1783
+Full diff on https://github.com/sindresorhus/refined-github/pull/1783/files
+The preview tab, after editing: https://github.com/refined-github/refined-github/edit/main/source/features/hide-diff-signs.css
+
+*/

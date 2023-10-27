@@ -1,0 +1,4 @@
+/* Prevent text reversal Unicode hacks in full names */
+.rgh-show-names .timeline-comment-header-text bdo {
+	display: inline-block;
+}
